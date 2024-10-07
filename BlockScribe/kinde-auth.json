@@ -1,0 +1,7 @@
+{
+  "issuer": "https://blockscribe.kinde.com",
+  "clientId": "f44f60bb7ec54128be1f634b428ad550",
+  "redirectUri": "blockscribe://kinde_callback",
+  "postLogoutRedirectUri": "blockscribe://kinde_logoutcallback",
+  "scope": "offline openid email profile",
+}

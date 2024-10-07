@@ -1,0 +1,74 @@
+PODS:
+  - AppAuth (1.7.5):
+    - AppAuth/Core (= 1.7.5)
+    - AppAuth/ExternalUserAgent (= 1.7.5)
+  - AppAuth/Core (1.7.5)
+  - AppAuth/ExternalUserAgent (1.7.5):
+    - AppAuth/Core
+  - AWSAPIGateway (2.36.3):
+    - AWSCore (= 2.36.3)
+  - AWSCore (2.36.3)
+  - KindeSDK (1.2.0):
+    - AppAuth (>= 1.6.2)
+  - Stripe (23.0.0):
+    - StripeApplePay (= 23.0.0)
+    - StripeCore (= 23.0.0)
+    - StripePayments (= 23.0.0)
+    - StripePaymentsUI (= 23.0.0)
+    - StripeUICore (= 23.0.0)
+  - StripeApplePay (23.0.0):
+    - StripeCore (= 23.0.0)
+  - StripeCore (23.0.0)
+  - StripePayments (23.0.0):
+    - StripeCore (= 23.0.0)
+    - StripePayments/Stripe3DS2 (= 23.0.0)
+  - StripePayments/Stripe3DS2 (23.0.0):
+    - StripeCore (= 23.0.0)
+  - StripePaymentSheet (23.0.0):
+    - StripeApplePay (= 23.0.0)
+    - StripeCore (= 23.0.0)
+    - StripePayments (= 23.0.0)
+    - StripePaymentsUI (= 23.0.0)
+  - StripePaymentsUI (23.0.0):
+    - StripeCore (= 23.0.0)
+    - StripePayments (= 23.0.0)
+    - StripeUICore (= 23.0.0)
+  - StripeUICore (23.0.0):
+    - StripeCore (= 23.0.0)
+
+DEPENDENCIES:
+  - AWSAPIGateway
+  - KindeSDK
+  - Stripe (= 23.0.0)
+  - StripePaymentSheet (= 23.0.0)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - AWSAPIGateway
+    - AWSCore
+    - KindeSDK
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripePayments
+    - StripePaymentSheet
+    - StripePaymentsUI
+    - StripeUICore
+
+SPEC CHECKSUMS:
+  AppAuth: 501c04eda8a8d11f179dbe8637b7a91bb7e5d2fa
+  AWSAPIGateway: 5cf92f42482de861ba356fe3a1c6bf8e343b283a
+  AWSCore: c80f0c849456deb66aaf7d97e77854f7c2b28236
+  KindeSDK: 43c5f443d138fc66ad451dc0e245b6f62d892719
+  Stripe: 3f2e6ecf0bca1cf51e0aa2d8ac000dcde862a1e3
+  StripeApplePay: 872cd6bee754b395c0cb33e64dd4ed887142dbf7
+  StripeCore: 6ee53ff749d64fd9db3f06ae4c385fdd3f8580a2
+  StripePayments: 6e580aac69d1923607a40f506602f5770f8eb2bc
+  StripePaymentSheet: fb6429dcb8f4b07e0ea22a1e83b231a4a666906f
+  StripePaymentsUI: cadc1c4d4daa4335dc0a996af5ead287505b7075
+  StripeUICore: 55b2660a2cad2fe055a05f59297caa4ae50acf74
+
+PODFILE CHECKSUM: 46f628d4421086065a9cb4b800fd2c992d5d61d3
+
+COCOAPODS: 1.15.2
